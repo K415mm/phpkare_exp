@@ -1,0 +1,18 @@
+{
+    "name": "kaismadi/phpkare-project",
+    "description": "A modernized PHP architecture using microservices.",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "zircote/swagger-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPKare\\": "./",
+            "PHPKare\\Microservices\\": "Microservices/",
+            "PHPKare\\Microservices\\External_In_Out\\": "Microservices/External_In_Out/",
+            "PHPKare\\Microservices\\Internal\\": "Microservices/Internal/",
+            "PHPKare\\Microservices\\External_In\\": "Microservices/External_In/",
+            "PHPKare\\Microservices\\External_Out\\": "Microservices/External_Out/"
+        }
+    }
+}
