@@ -1,1 +1,0 @@
-# phpkare_exp
